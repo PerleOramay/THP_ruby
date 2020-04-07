@@ -1,0 +1,2 @@
+puts "Bonjour, monde !" #"Et avec une voix sexy, ça donne : Bonjour, monde !"
+#Ce symbole permet d'écrire des commentaires donc si j'écris ce symbole et enlève la virgule, la suite n'est plus considérée comme une commande mais comme un commentaire
