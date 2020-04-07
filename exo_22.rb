@@ -12,7 +12,8 @@ if floor > 25
   else puts "Voici la pyramide :"
     floor.times do
         bloc = (space * (floor - i) + hash * i)
-        pyramide << bloc
+        blocb = hash * i
+        pyramide << bloc + blocb
       i += 1
     end
     puts pyramide
