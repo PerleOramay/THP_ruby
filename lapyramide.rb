@@ -9,7 +9,7 @@ pyramide = []
 if floor > 25
   then puts "Merci de rentrer un nombre compris entre 1 et 25"
   else puts "Voici la pyramide :"
-    floor.times do
+    while i <= floor
         bloc = hash * i
         pyramide << bloc
       i += 1
